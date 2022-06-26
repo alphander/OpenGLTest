@@ -1,5 +1,5 @@
-C:\MinGW\bin\mingw32-make.exe --dry-run --keep-going --print-directory
+C:\MinGW\bin\mingw32-make.exe --dry-run --always-make --keep-going --print-directory
 mingw32-make: Entering directory 'c:/dev/Projects/OpenGLTest'
-gcc src/main.c src/compile.c src/list/list.c lib/GLAD/glad.o lib/CGLM/libcglm.dll.a lib/GLFW/libglfw3.a -lopengl32 -lgdi32 -Wall -g -O0 -I./include
+gcc src/main.c src/compile.c src/app/app.c src/list/list.c lib/GLAD/glad.o lib/CGLM/libcglm.dll.a lib/GLFW/libglfw3.a -lopengl32 -lgdi32 -Wall -g -O0 -I./include
 mingw32-make: Leaving directory 'c:/dev/Projects/OpenGLTest'
  

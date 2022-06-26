@@ -12,7 +12,7 @@ List* _List()
     List* list = malloc(sizeof(List));
     list->capacity = 1;
     list->size = 0;
-    list->data = malloc(sizeof(void*));
+    list->data = calloc(1, sizeof(void*));
     return list;
 }
 
