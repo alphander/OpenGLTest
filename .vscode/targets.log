@@ -1,0 +1,357 @@
+C:\MinGW\bin\mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Jun 26 12:17:51 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 5)
+OBJ = obj
+# makefile (from 'Makefile', line 2)
+SRC = src
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/dev/Projects/OpenGLTest
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 6)
+CFLAGS = -Wall -g -O0 -I./$(INCLUDE)
+# environment
+ONEDRIVE = C:\Users\PiSquared\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = D:\tmp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-47d06022-17d9-45ea-8619-c5d585dc9323-sock
+# environment
+VSCODE_CWD = C:\Users\PiSquared\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\PiSquared\AppData\Local\Programs\Python\Python310;C:\ngrok;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\PiSquared\AppData\Local\Programs\Python\Python39\Scripts;C:\MinGW\bin;C:\Users\PiSquared\.cargo\bin;C:\Users\PiSquared\AppData\Local\Microsoft\WindowsApps;;C:\Users\PiSquared\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PiSquared\.dotnet\tools
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\PiSquared
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+OCULUSBASE = C:\Program Files\Oculus\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10988_KJJWPZNOFTGFVLJP
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LAPTOP-F4836SL2
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = PiSquared
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\PiSquared\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-F4836SL2
+# environment
+ONEDRIVECONSUMER = C:\Users\PiSquared\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-F4836SL2
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 8)
+EXTERNALLIBS = -lopengl32 -lgdi32
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 1)
+CC = gcc
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_311
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 4)
+INCLUDE = include
+# environment
+ACSVCPORT = 17532
+# makefile (from 'Makefile', line 10)
+LOCALLIBS = $(wildcard $(LIBS)/**/*.o) $(wildcard $(LIBS)/**/*.a)
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\PiSquared\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_ 
+COMMAND := C:/MinGW/bin/mingw32-make
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\00fe48094ae71b15df7cf4a42cea43f8-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\PiSquared
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\PiSquared\AppData\Roaming
+# environment
+TEMP = D:\tmp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 3)
+LIBS = lib
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 5000
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 10988
+# makefile (from 'Makefile', line 11)
+FILES = $(wildcard $(SRC)/*.c) $(wildcard $(SRC)/**/*.c)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-F4836SL2
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=14/136=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\ngrok (key C:/ngrok, mtime 1647232399): 3 files, no impossibilities.
+# src/main.c (key c:/dev/Projects/OpenGLTest/src/main.c, mtime 1656098959): could not be opened.
+# lib/GLAD (key c:/dev/Projects/OpenGLTest/lib/GLAD, mtime 1656021397): 3 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1622753453): 5 files, no impossibilities.
+# C:\Users\PiSquared\AppData\Local\Programs\Python\Python39\Scripts (key C:/Users/PiSquared/AppData/Local/Programs/Python/Python39/Scripts, mtime 1649079096): 6 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1646841012): 30 files, no impossibilities.
+# . (key c:/dev/Projects/OpenGLTest, mtime 1656242262): 10 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1649847878): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1647836987): 4 files, no impossibilities.
+# src/list (key c:/dev/Projects/OpenGLTest/src/list, mtime 1655975494): 4 files, no impossibilities.
+# C:\Users\PiSquared\AppData\Local\Microsoft\WindowsApps (key C:/Users/PiSquared/AppData/Local/Microsoft/WindowsApps, mtime 1656230702): 23 files, no impossibilities.
+# C:\Users\PiSquared\AppData\Local\Programs\Python\Python310: could not be stat'd.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1646879337): 8 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1655974943): 131 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1622753446): 10 files, no impossibilities.
+# C:\Users\PiSquared\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/PiSquared/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655478750): 4 files, no impossibilities.
+# lib/GLFW (key c:/dev/Projects/OpenGLTest/lib/GLFW, mtime 1656021445): 3 files, no impossibilities.
+# C:\Users\PiSquared\.dotnet\tools: could not be stat'd.
+# C:\Program Files\Oculus\Support\oculus-runtime (key C:/Program Files/Oculus/Support/oculus-runtime, mtime 1653348229): 37 files, no impossibilities.
+# src/compile.c (key c:/dev/Projects/OpenGLTest/src/compile.c, mtime 1656183431): could not be opened.
+# C:\Users\PiSquared\.cargo\bin (key C:/Users/PiSquared/.cargo/bin, mtime 1655691237): 14 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655427420): 155 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1655876205): 135 files, no impossibilities.
+# src (key c:/dev/Projects/OpenGLTest/src, mtime 1656103136): 6 files, no impossibilities.
+# src/shaders (key c:/dev/Projects/OpenGLTest/src/shaders, mtime 1656102613): 4 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1655315481): 13 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1656230839): 3041 files, no impossibilities.
+# lib/CGLM (key c:/dev/Projects/OpenGLTest/lib/CGLM, mtime 1656095277): 3 files, no impossibilities.
+
+# 3657 files, no impossibilities in 30 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: build
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/13=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-24 21:38:57
+#  File has been updated.
+#  Successfully updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=7/21=33%
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) $(FILES) $(LOCALLIBS) $(EXTERNALLIBS) $(CFLAGS)
+
+# Not a target:
+a.exe:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: a.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	del a.exe
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3622 / storage = 54351 B / avg = 15 B
+# current buf: size = 8174 B / used = 5347 B / count = 344 / avg = 15 B
+# other used: total = 46177 B / count = 3278 / avg = 14 B
+# other free: total = 40 B / max = 14 B / min = 1 B / avg = 6 B
+
+# strcache performance: lookups = 3702 / hit rate = 2%
+# hash-table stats:
+# Load=3622/8192=44%, Rehash=0, Collisions=1295/3702=35%
+# Finished Make data base on Sun Jun 26 12:17:51 2022
+
+ 
