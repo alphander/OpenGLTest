@@ -7,7 +7,7 @@ C:\MinGW\bin\mingw32-make.exe all --print-data-base --no-builtin-variables --no-
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Sun Jun 26 12:46:02 2022
+# Make data base, printed on Sun Jun 26 12:53:07 2022
 
 # Variables
 
@@ -79,7 +79,8 @@ ALLUSERSPROFILE = C:\ProgramData
 VSCODE_LOG_STACK = false
 # environment
 NUMBER_OF_PROCESSORS = 16
-# environment
+# envi 
+ronment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
@@ -232,7 +233,8 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-F4836SL2
 # C:\ngrok (key C:/ngrok, mtime 1647232399): 3 files, no impossibilities.
 # src/main.c (key c:/dev/Projects/OpenGLTest/src/main.c, mtime 1656242761): could not be opened.
 # lib/GLAD (key c:/dev/Projects/OpenGLTest/lib/GLAD, mtime 1656021397): 3 files, no impossibilities.
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1622753453): 5 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C 
+:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1622753453): 5 files, no impossibilities.
 # C:\Users\PiSquared\AppData\Local\Programs\Python\Python39\Scripts (key C:/Users/PiSquared/AppData/Local/Programs/Python/Python39/Scripts, mtime 1649079096): 6 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1646841012): 30 files, no impossibilities.
 # . (key c:/dev/Projects/OpenGLTest, mtime 1656243573): 14 files, no impossibilities.
@@ -253,7 +255,8 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-F4836SL2
 # C:\Users\PiSquared\.cargo\bin (key C:/Users/PiSquared/.cargo/bin, mtime 1655691237): 14 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655427420): 155 files, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1655876205): 135 files, no impossibilities.
-# src (key c:/dev/Projects/OpenGLTest/src, mtime 1656103136): 6 files, no impossibilities.
+# src (key c:/dev/Projects/OpenGLTest/src, mti 
+me 1656103136): 6 files, no impossibilities.
 # src/shaders (key c:/dev/Projects/OpenGLTest/src/shaders, mtime 1656102613): 4 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1655315481): 13 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1656230839): 3041 files, no impossibilities.
@@ -285,7 +288,7 @@ all: build
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-24 21:38:57
+#  Last modified 2022-06-26 12:51:33
 #  File has been updated.
 #  Successfully updated.
 
@@ -332,7 +335,8 @@ clean: a.exe
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 19):
+#  recipe to execute (from 'Makefile', line 
+ 19):
 	del a.exe
 
 # files hash-table stats:
@@ -351,6 +355,6 @@ clean: a.exe
 # strcache performance: lookups = 3706 / hit rate = 2%
 # hash-table stats:
 # Load=3626/8192=44%, Rehash=0, Collisions=1300/3706=35%
-# Finished Make data base on Sun Jun 26 12:46:02 2022
+# Finished Make data base on Sun Jun 26 12:53:07 2022
 
  

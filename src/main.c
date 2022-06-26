@@ -27,7 +27,6 @@ int main(void)
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
-    //This is a change that needs to be pushed.
 
     glfwTerminate();
     return 0;
