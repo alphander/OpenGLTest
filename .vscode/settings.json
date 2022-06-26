@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "files.associations": {
+        "glad.h": "c",
+        "glfw3.h": "c",
+        "stdio.h": "c"
+    },
+}
