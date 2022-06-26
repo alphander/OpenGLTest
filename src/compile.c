@@ -4,7 +4,6 @@
 const char* readFile(const char* directory)
 {
     FILE* file = fopen(directory, "r");
-    
     char* chars = NULL;
     char ch;
     int size = 0;
